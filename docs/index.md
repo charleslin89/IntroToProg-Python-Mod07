@@ -4,7 +4,7 @@
 
 **Course:** IT FDN 110 A
 
-**GitHubURL:** https://github.com/charleslin89/IntroToProg-Python-Mod07
+**GitHubURL:** [https://github.com/charleslin89/IntroToProg-Python-Mod07](https://github.com/charleslin89/IntroToProg-Python-Mod07)
 
 # Assignment 07 Files and Exceptions
 
@@ -113,6 +113,61 @@ When I read a file, if a file doesn’t exist and I didn’t include any try/exc
 ![Listing 4](/docs/assets/Listing4.png)
 
 Listing 4 Reading a file with wrong file name that doesn’t exist
+
+![Figure 4](/docs/assets/Figure4.png)
+
+Figure 4 Error message with no try/except
+
+If I include a try/except, I can customize the error message and the job can continue.
+
+![Listing 5](/docs/assets/Listing5.png)
+
+Listing 5 With try/except with built-in FileNotFoundError
+
+![Figure 5](/docs/assets/Figure5.png)
+
+Figure 5 Result from Listing 5 that shows the error and the job continues to the next step
+
+I intentionally set variable filePath to be “CustomerDat.txt” to illustrate the exception error. I customized the error to show Python’s Built-in exception and to communicate nothing will show.
+
+![Listing 6](/docs/assets/Listing6.png)
+
+Listing 6 Variable “filePath” that points to a file that doesn’t exist so cannot be read from
+
+![Figure 6](/docs/assets/Figure6.png)
+
+Figure 6 Built-in exception object and customized message when “filePath” from Listing 6 cannot be found
+
+The output in Terminal when the file cannot be found (variable filePath = “CustomerDat.txt”)
+
+![Listing 7](/docs/assets/Listing7.png)
+
+Listing 7 When file is not found, message shows built-in exception and communicates the file is not available
+
+When variable filePath is set to “CustomerData.txt”, then the data can be read, and this is the output in Terminal when the user chooses to write to a binary file. The user can also choose to write to a text file.
+
+![Listing 8](/docs/assets/Listing8.png)
+
+Listing 8 When the file is available, it shows the records that will be written and tells the user the it is writing to a binary file.
+
+The selected file type then is written in the working folder. 
+
+![Figure 8](/docs/assets/Figure8.png)
+
+Figure 8 Binary file written by Listing 8
+
+![Figure 9](/docs/assets/Figure9.png)
+
+Figure 9 Text file written by Listing 8
+
+## Summary
+When the assignment request is very high-level, I need to think of a code design that is feasible with what I know, and fulfills the requirements.  I have a good sense of error handling (try/except), and I’m becoming familiar with publishing GitHub’s page.
+
+
+
+
+
+
 
 
 
