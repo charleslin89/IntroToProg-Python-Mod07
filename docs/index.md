@@ -79,6 +79,8 @@ print("--------------------------------------------------------------")
 ```
 Listing 1 Try/Except to give meaningful message
 
+![Figure 1](/docs/assets/Figure 1.png)
+
 
 
 
