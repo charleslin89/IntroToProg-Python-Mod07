@@ -75,7 +75,7 @@ print("--------------------------------------------------------------")
 ```
 Listing 1 Try/Except to give meaningful message
 
-![Figure 1](/docs/assets/Figure1.png)
+![Figure 1](./docs/assets/Figure1.png)
 
 Figure 1 The result of List 1 
 
