@@ -21,13 +21,11 @@ In addition to plain text files, there are binary files that are obscured but no
 ## Pickling Feature
 Pickling is used to store python objects. This means things like lists, dictionaries, class objects, and more. If we have a large dataset, and we're loading that massive data set into memory every time we run the program, it makes a lot of sense to pickle it, and then load that instead, because it will be far faster than a csv text file.
 
-The Python pickle module -
-https://realpython.com/python-pickle-module/
-The process of serialization to send complex object hierarchies over a network or save the internal state of your objects to a database. Serialization converts a data structure into a linear form that can be stored or transmitted over a network. Python serializes objects in a binary format, which means the result is not human readable. Though it’s faster, and it works with many more Python types right out of the box. Python team use terms pickling and unpickling used to refer to serializing and deserializing. We can dump() or load() data in pickle module.
+[Python Pickle Module](https://realpython.com/python-pickle-module/)
+The process of serialization to send complex object hierarchies over a network or save the internal state of your objects to a database. Serialization converts a data structure into a linear form that can be stored or transmitted over a network. Python serializes objects in a binary format, which means the result is not human readable. Though it’s faster, and it works with many more Python types right out of the box. Python team use terms pickling and unpickling to refer to serializing and deserializing. We can dump() or load() data in pickle module.
 
-Python Numerical Methods’ Pickle Files
-https://pythonnumericalmethods.berkeley.edu/notebooks/chapter11.03-Pickle-Files.html
-The term “pickle” comes from saving dictionaries, lists, etc to share with others, like pickling vegetables. The link was published a few years back, but the pickle concept and examples are easy to follow.
+[Python Numerical Methods’ Pickle Files](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter11.03-Pickle-Files.html)
+The term “pickle” comes from saving dictionaries, lists, etc to share with others, like pickling vegetables. The link was published a few years back, but I find the pickle concept and examples easy to follow.
 
 ## Error Handling
 Try-Except lets us communicate error messages that are more meaningful. We can customize the error message by 
