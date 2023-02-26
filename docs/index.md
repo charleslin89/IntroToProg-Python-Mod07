@@ -107,4 +107,13 @@ Figure 2 Txt file from Listing 3
 
 Figure 3 Size comparison between text and binary files
 
+### Try/Except
+When I read a file, if a file doesn’t exist and I didn’t include any try/except, I would get a FileNotFoundError, and the job stops. In this example, I missed the last “a” in CustomerData. I have “CustomerDat.txt” in the script, and the job stops there.
+
+![Listing 4](/docs/assets/Listing4.png)
+
+Listing 4 Reading a file with wrong file name that doesn’t exist
+
+
+
 
