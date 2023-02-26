@@ -30,12 +30,10 @@ The term “pickle” comes from saving dictionaries, lists, etc to share with o
 ## Error Handling
 Try-Except lets us communicate error messages that are more meaningful. We can customize the error message by 
 
-Script 5: Error handling -
-https://www.linkedin.com/learning/search?keywords=python%20error%20handling&u=2091572
+[LinkedIn Learning Script 5: Error Handling](https://www.linkedin.com/learning/search?keywords=python%20error%20handling&u=2091572) **LinkedIn Learning License Required**
 Notes: Building in Try-Except gives us the option to let other portions of the job to run, instead of failing all together. 
 
-All About Exceptions - 
-https://www.learnpython.dev/03-intermediate-python/40-exceptions/10-all-about-exceptions/
+[All About Exceptions](https://www.learnpython.dev/03-intermediate-python/40-exceptions/10-all-about-exceptions/)
 Notes: The navigation of the webpage is curious, but the content layout is similar to Professor Root’s lecture material.
 
 ## Assignment with Pickling and Structured Error Handling 
