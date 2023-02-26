@@ -80,7 +80,7 @@ Listing 1 Try/Except to give meaningful message
 Figure 1 The result of List 1 
 
 
-![Listing 2](/docs/assets/Listing2.png)
+![Listing 2](./assets/Listing2.png)
 
 Listing 2 Binary file opened in TextEdit reader 
 
@@ -99,64 +99,64 @@ print()
 
 Listing 3 Write to a txt file 
 
-![Figure 2](/docs/assets/Figure2.png)
+![Figure 2](./assets/Figure2.png)
 
 Figure 2 Txt file from Listing 3 
 
-![Figure 3](/docs/assets/Figure3.png)
+![Figure 3](./assets/Figure3.png)
 
 Figure 3 Size comparison between text and binary files
 
 ### Try/Except
 When I read a file, if a file doesn’t exist and I didn’t include any try/except, I would get a FileNotFoundError, and the job stops. In this example, I missed the last “a” in CustomerData. I have “CustomerDat.txt” in the script, and the job stops there.
 
-![Listing 4](/docs/assets/Listing4.png)
+![Listing 4](./assets/Listing4.png)
 
 Listing 4 Reading a file with wrong file name that doesn’t exist
 
-![Figure 4](/docs/assets/Figure4.png)
+![Figure 4](./assets/Figure4.png)
 
 Figure 4 Error message with no try/except
 
 If I include a try/except, I can customize the error message and the job can continue.
 
-![Listing 5](/docs/assets/Listing5.png)
+![Listing 5](./assets/Listing5.png)
 
 Listing 5 With try/except with built-in FileNotFoundError
 
-![Figure 5](/docs/assets/Figure5.png)
+![Figure 5](./assets/Figure5.png)
 
 Figure 5 Result from Listing 5 that shows the error and the job continues to the next step
 
 I intentionally set variable filePath to be “CustomerDat.txt” to illustrate the exception error. I customized the error to show Python’s Built-in exception and to communicate nothing will show.
 
-![Listing 6](/docs/assets/Listing6.png)
+![Listing 6](./assets/Listing6.png)
 
 Listing 6 Variable “filePath” that points to a file that doesn’t exist so cannot be read from
 
-![Figure 6](/docs/assets/Figure6.png)
+![Figure 6](./assets/Figure6.png)
 
 Figure 6 Built-in exception object and customized message when “filePath” from Listing 6 cannot be found
 
 The output in Terminal when the file cannot be found (variable filePath = “CustomerDat.txt”)
 
-![Listing 7](/docs/assets/Listing7.png)
+![Listing 7](./assets/Listing7.png)
 
 Listing 7 When file is not found, message shows built-in exception and communicates the file is not available
 
 When variable filePath is set to “CustomerData.txt”, then the data can be read, and this is the output in Terminal when the user chooses to write to a binary file. The user can also choose to write to a text file.
 
-![Listing 8](/docs/assets/Listing8.png)
+![Listing 8](./assets/Listing8.png)
 
 Listing 8 When the file is available, it shows the records that will be written and tells the user the it is writing to a binary file.
 
 The selected file type then is written in the working folder. 
 
-![Figure 8](/docs/assets/Figure8.png)
+![Figure 8](./assets/Figure8.png)
 
 Figure 8 Binary file written by Listing 8
 
-![Figure 9](/docs/assets/Figure9.png)
+![Figure 9](./assets/Figure9.png)
 
 Figure 9 Text file written by Listing 8
 
