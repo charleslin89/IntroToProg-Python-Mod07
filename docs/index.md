@@ -80,5 +80,31 @@ Listing 1 Try/Except to give meaningful message
 Figure 1 The result of List 1 
 
 
+![Listing 2](/docs/assets/Listing2.png)
+
+Listing 2 Binary file opened in TextEdit reader 
+
+I wondered if the size of binary file helps with faster processing speed. I wrote the list from Listing 1 to a txt file to observe the size difference. Txt file was smaller than binary file. So I think the faster processing comes from an easier processing mechanism, and not from the file size. 
+
+```
+objFile = open(text_file_name, "w")
+for objRow in lstCustomer:
+    objFile.write(str(objRow["ID"]) + ',' + str(objRow["Name"]) + ',' + str(objRow["Email"]) + '\n')
+objFile.close()
+print()
+print("The dictionary is also written to a text file to observe sizes.")
+print("--------------------------------------------------------------")
+print()
+```
+
+Listing 3 Write to a txt file 
+
+![Figure 2](/docs/assets/Figure2.png)
+
+Figure 2 Txt file from Listing 3 
+
+![Figure 3](/docs/assets/Figure3.png)
+
+Figure 3 Size comparison between text and binary files
 
 
